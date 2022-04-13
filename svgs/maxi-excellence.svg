@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+    <defs>
+        <linearGradient id="a" x1="11.591%" x2="11.591%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#0E56FE"/>
+            <stop offset="100%" stop-color="#0018A8"/>
+        </linearGradient>
+        <linearGradient id="b" x1="50.002%" x2="50.002%" y1=".089%" y2="100%">
+            <stop offset="0%" stop-color="#1B98EA" stop-opacity=".7"/>
+            <stop offset="100%" stop-color="#1B98EA" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="c" x1="32.022%" x2="27.883%" y1="19.224%" y2="70.798%">
+            <stop offset="0%" stop-color="#0E56FE"/>
+            <stop offset="100%" stop-color="#0018A8"/>
+        </linearGradient>
+        <linearGradient id="e" x1="50%" x2="50%" y1="0%" y2="90.646%">
+            <stop offset="0%" stop-color="#55BCFF"/>
+            <stop offset="100%" stop-color="#1B98EA"/>
+        </linearGradient>
+        <linearGradient id="d" x1="50%" x2="52.129%" y1="0%" y2="84.437%">
+            <stop offset="0%" stop-color="#8AD1FF"/>
+            <stop offset="100%" stop-color="#1B98EA" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="g" x1="97.278%" x2="0%" y1="1.621%" y2="100%">
+            <stop offset="0%" stop-color="#55BCFF"/>
+            <stop offset="100%" stop-color="#FFF"/>
+        </linearGradient>
+        <linearGradient id="f" x1="97.387%" x2="15.234%" y1="4.884%" y2="83.788%">
+            <stop offset="0%" stop-color="#8AD1FF"/>
+            <stop offset="100%" stop-color="#1B98EA" stop-opacity="0"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <circle cx="50" cy="50" r="35" fill="url(#a)"/>
+        <circle cx="50" cy="50" r="39.5" stroke="url(#b)"/>
+        <circle cx="50" cy="50" r="34.5" stroke="url(#b)"/>
+        <path fill="url(#c)" d="M83 17h9.727a1 1 0 0 1 .737 1.676l-7.978 8.703A5 5 0 0 1 81.8 29H71v-9.929a5 5 0 0 1 1.464-3.535l8.829-8.829A1 1 0 0 1 83 7.414V17z"/>
+        <circle cx="50" cy="50" r="24.5" fill="url(#e)" stroke="url(#d)"/>
+        <circle cx="50" cy="50" r="15" fill="url(#a)"/>
+        <circle cx="50" cy="50" r="14" stroke="url(#b)" stroke-width="2"/>
+        <circle cx="50" cy="50" r="4.5" fill="url(#e)" stroke="url(#d)"/>
+        <path fill="url(#g)" stroke="url(#f)" d="M50.707 50.707l34-34a1 1 0 0 0-1.414-1.414l-34 34a1 1 0 0 0 1.414 1.414z"/>
+    </g>
+</svg>

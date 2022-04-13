@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
+    <defs>
+        <linearGradient id="a" x1="11.591%" x2="11.591%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#0E56FE"/>
+            <stop offset="100%" stop-color="#0018A8"/>
+        </linearGradient>
+        <linearGradient id="b" x1="0%" y1="50%" y2="50%">
+            <stop offset="0%" stop-color="#1A1B1C"/>
+            <stop offset="100%" stop-color="#333B41"/>
+        </linearGradient>
+        <linearGradient id="c" x1="50.002%" x2="50.002%" y1=".089%" y2="100%">
+            <stop offset="0%" stop-color="#1B98EA" stop-opacity=".7"/>
+            <stop offset="100%" stop-color="#1B98EA" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="e" x1="50%" x2="50%" y1="0%" y2="90.646%">
+            <stop offset="0%" stop-color="#55BCFF"/>
+            <stop offset="100%" stop-color="#1B98EA"/>
+        </linearGradient>
+        <rect id="d" width="80" height="50" rx="5"/>
+        <linearGradient id="g" x1="50%" x2="52.129%" y1="30.469%" y2="63.452%">
+            <stop offset="0%" stop-color="#8AD1FF"/>
+            <stop offset="100%" stop-color="#1B98EA" stop-opacity="0"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <rect width="80" height="50" x="18" y="6" fill="url(#a)" rx="5"/>
+        <path fill="url(#b)" fill-rule="nonzero" d="M18 14h80v10H18z"/>
+        <path fill="#F7F9FD" fill-rule="nonzero" d="M23 29h70v5H23z" opacity=".299"/>
+        <rect width="79" height="49" x="18.5" y="6.5" stroke="url(#c)" rx="5"/>
+        <g transform="translate(2 40)">
+            <mask id="f" fill="#fff">
+                <use xlink:href="#d"/>
+            </mask>
+            <use fill="url(#e)" xlink:href="#d"/>
+            <path fill="#0142DB" d="M74.006 0c-.64.51-1.332.98-2.076 1.408L24.21 28.824C13.45 35.006 0 27.28 0 14.916V0h74.006z" mask="url(#f)"/>
+        </g>
+        <rect width="14" height="14" x="63" y="45" fill="#F7F9FD" fill-rule="nonzero" rx="4"/>
+        <path fill="#1B98EA" fill-rule="nonzero" d="M75 49v6a2 2 0 0 1-2 2h-6a2 2 0 0 1-2-2v-6a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2z"/>
+        <rect width="4" height="5" x="9" y="68" stroke="#FFF" stroke-width="2" rx="1"/>
+        <rect width="4" height="5" x="19" y="68" stroke="#FFF" stroke-width="2" rx="1"/>
+        <rect width="4" height="5" x="29" y="68" stroke="#FFF" stroke-width="2" rx="1"/>
+        <rect width="4" height="5" x="39" y="68" stroke="#FFF" stroke-width="2" rx="1"/>
+        <rect width="4" height="5" x="49" y="68" stroke="#FFF" stroke-width="2" rx="1"/>
+        <rect width="40" height="2" x="7" y="78" fill="#0142DB" rx="1"/>
+        <rect width="15" height="2" x="62" y="78" fill="#0142DB" rx="1"/>
+        <rect width="40" height="2" x="7" y="83" fill="#0142DB" rx="1"/>
+        <rect width="79" height="49" x="2.5" y="40.5" stroke="url(#g)" rx="5"/>
+        <circle cx="14" cy="52" r="7" fill="#1B98EA" fill-rule="nonzero"/>
+        <g fill-rule="nonzero" transform="translate(84 45)">
+            <circle cx="3" cy="3" r="3" fill="#1B98EA"/>
+            <circle cx="6" cy="3" r="3" fill="#F7F9FD" opacity=".498"/>
+        </g>
+        <circle cx="22" cy="52" r="7" fill="#F7F9FD" fill-rule="nonzero" opacity=".498"/>
+    </g>
+</svg>

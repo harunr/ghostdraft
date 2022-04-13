@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
+    <defs>
+        <linearGradient id="a" x1="11.591%" x2="11.591%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#0E56FE"/>
+            <stop offset="100%" stop-color="#0018A8"/>
+        </linearGradient>
+        <linearGradient id="b" x1="50.002%" x2="50.002%" y1=".089%" y2="100%">
+            <stop offset="0%" stop-color="#1B98EA" stop-opacity=".7"/>
+            <stop offset="100%" stop-color="#1B98EA" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="d" x1="50%" x2="50%" y1="0%" y2="90.646%">
+            <stop offset="0%" stop-color="#55BCFF"/>
+            <stop offset="100%" stop-color="#1B98EA"/>
+        </linearGradient>
+        <linearGradient id="c" x1="50%" x2="51.198%" y1="0%" y2="84.437%">
+            <stop offset="0%" stop-color="#8AD1FF"/>
+            <stop offset="100%" stop-color="#1B98EA" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="e" x1="11.591%" x2="11.591%" y1="0%" y2="72.979%">
+            <stop offset="0%" stop-color="#0E56FE"/>
+            <stop offset="100%" stop-color="#0018A8"/>
+        </linearGradient>
+        <path id="f" d="M22.929 96.25l-12.714-9.896a5 5 0 0 1-1.901-3.414L6.01 61.422a5 5 0 0 1 2.856-5.062l15.018-7.014a5 5 0 0 1 4.232 0l15.018 7.014a5 5 0 0 1 2.856 5.062L43.686 82.94a5 5 0 0 1-1.9 3.414L29.07 96.25a5 5 0 0 1-6.142 0z"/>
+        <filter id="g" width="125.1%" height="121.7%" x="-12.5%" y="-10.7%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceAlpha" result="shadowBlurInner1" stdDeviation="2"/>
+            <feOffset dy="-6" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+            <feColorMatrix in="shadowInnerInner1" result="shadowMatrixInner1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0"/>
+            <feGaussianBlur in="SourceAlpha" result="shadowBlurInner2" stdDeviation="2"/>
+            <feOffset dy="1" in="shadowBlurInner2" result="shadowOffsetInner2"/>
+            <feComposite in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2"/>
+            <feColorMatrix in="shadowInnerInner2" result="shadowMatrixInner2" values="0 0 0 0 0.105882353 0 0 0 0 0.596078431 0 0 0 0 0.917647059 0 0 0 0.15 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixInner1"/>
+                <feMergeNode in="shadowMatrixInner2"/>
+            </feMerge>
+        </filter>
+        <linearGradient id="h" x1="50.002%" x2="50.002%" y1=".089%" y2="100%">
+            <stop offset="0%" stop-color="#1B98EA" stop-opacity=".7"/>
+            <stop offset="100%" stop-color="#1B98EA" stop-opacity="0"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <rect width="60" height="80" x="37" y="3" fill="url(#a)" rx="5"/>
+        <rect width="59" height="79" x="37.5" y="3.5" stroke="url(#b)" rx="5"/>
+        <rect width="59" height="79" x="25.5" y="15.5" fill="url(#d)" stroke="url(#c)" rx="5"/>
+        <rect width="22" height="2" x="53" y="29" fill="#FFF" rx="1"/>
+        <rect width="13" height="2" x="53" y="36" fill="#FFF" rx="1"/>
+        <rect width="40" height="2" x="35" y="46" fill="#FFF" rx="1"/>
+        <rect width="40" height="2" x="35" y="56" fill="#FFF" rx="1"/>
+        <rect width="40" height="2" x="35" y="66" fill="#FFF" rx="1"/>
+        <use fill="url(#e)" xlink:href="#f"/>
+        <use fill="#000" filter="url(#g)" xlink:href="#f"/>
+        <path stroke="#FFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 75l7 6 11-15"/>
+        <path stroke="url(#h)" d="M23.85 96.333a3.5 3.5 0 0 0 4.3 0L41.813 85.7a3.5 3.5 0 0 0 1.33-2.39l2.426-22.65a3.5 3.5 0 0 0-2-3.544l-16.088-7.513a3.5 3.5 0 0 0-2.962 0L8.43 57.115a3.5 3.5 0 0 0-1.999 3.544l2.425 22.65a3.5 3.5 0 0 0 1.33 2.39L23.85 96.333z"/>
+        <path stroke="#0018A8" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M75 81.546c-3.287 0-4.383 2.465-6.052 2.465-.574 0 .417-2.465-.47-2.465-1.043 0-3.13 3.081-5.739 3.081-1.46 0-3.4-1.016-3.4-2.218 0-1.88 1.826-3.328 3.652-3.328 3.392 0-2.034 6.779-7.826 6.779-3.182 0-5.165-2.403-5.165-4.16 0-3.944 4.122-5.7 5.843-5.7 2.296 0 2.505 1.17 2.505 1.602C58.348 81.7 50 87 50 87"/>
+        <rect width="11" height="11" x="36" y="26" stroke="#FFF" stroke-width="2" rx="2"/>
+    </g>
+</svg>

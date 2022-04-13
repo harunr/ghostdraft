@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
+    <defs>
+        <linearGradient id="a" x1="11.591%" x2="11.591%" y1="0%" y2="72.979%">
+            <stop offset="0%" stop-color="#0E56FE"/>
+            <stop offset="100%" stop-color="#0018A8"/>
+        </linearGradient>
+        <rect id="b" width="82" height="45" x="10" y="4" rx="5"/>
+        <filter id="c" width="112.2%" height="122.2%" x="-6.1%" y="-11.1%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceAlpha" result="shadowBlurInner1" stdDeviation="2"/>
+            <feOffset dy="-6" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+            <feColorMatrix in="shadowInnerInner1" result="shadowMatrixInner1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0"/>
+            <feGaussianBlur in="SourceAlpha" result="shadowBlurInner2" stdDeviation="2"/>
+            <feOffset dy="1" in="shadowBlurInner2" result="shadowOffsetInner2"/>
+            <feComposite in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2"/>
+            <feColorMatrix in="shadowInnerInner2" result="shadowMatrixInner2" values="0 0 0 0 0.105882353 0 0 0 0 0.596078431 0 0 0 0 0.917647059 0 0 0 0.15 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixInner1"/>
+                <feMergeNode in="shadowMatrixInner2"/>
+            </feMerge>
+        </filter>
+        <linearGradient id="d" x1="11.591%" x2="11.591%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#0E56FE"/>
+            <stop offset="100%" stop-color="#0018A8"/>
+        </linearGradient>
+        <linearGradient id="f" x1="50%" x2="50%" y1="0%" y2="90.646%">
+            <stop offset="0%" stop-color="#55BCFF"/>
+            <stop offset="100%" stop-color="#1B98EA"/>
+        </linearGradient>
+        <linearGradient id="e" x1="50%" x2="52.129%" y1="0%" y2="84.437%">
+            <stop offset="0%" stop-color="#8AD1FF"/>
+            <stop offset="100%" stop-color="#1B98EA" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="h" x1="50%" x2="50%" y1="0%" y2="90.646%">
+            <stop offset="0%" stop-color="#55BCFF"/>
+            <stop offset="100%" stop-color="#1B98EA"/>
+        </linearGradient>
+        <linearGradient id="g" x1="50%" x2="50.431%" y1="0%" y2="84.437%">
+            <stop offset="0%" stop-color="#8AD1FF"/>
+            <stop offset="100%" stop-color="#1B98EA" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="j" x1="50%" x2="50%" y1="0%" y2="90.646%">
+            <stop offset="0%" stop-color="#55BCFF"/>
+            <stop offset="100%" stop-color="#1B98EA"/>
+        </linearGradient>
+        <linearGradient id="i" x1="50%" x2="52.129%" y1="45.266%" y2="53.26%">
+            <stop offset="0%" stop-color="#8AD1FF"/>
+            <stop offset="100%" stop-color="#1B98EA" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="k" x1="50.002%" x2="50.002%" y1=".089%" y2="100%">
+            <stop offset="0%" stop-color="#1B98EA" stop-opacity=".7"/>
+            <stop offset="100%" stop-color="#1B98EA" stop-opacity="0"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <use fill="url(#a)" xlink:href="#b"/>
+        <use fill="#000" filter="url(#c)" xlink:href="#b"/>
+        <path fill="url(#d)" d="M10 40h82v51a5 5 0 0 1-5 5H15a5 5 0 0 1-5-5V40z"/>
+        <rect width="15" height="15" x="18.5" y="48.5" fill="url(#f)" stroke="url(#e)" rx="2"/>
+        <rect width="15" height="15" x="18.5" y="72.5" fill="url(#f)" stroke="url(#e)" rx="2"/>
+        <rect width="15" height="15" x="42.5" y="48.5" fill="url(#f)" stroke="url(#e)" rx="2"/>
+        <rect width="15" height="15" x="42.5" y="72.5" fill="url(#f)" stroke="url(#e)" rx="2"/>
+        <rect width="17" height="39" x="66.5" y="48.5" fill="url(#h)" stroke="url(#g)" rx="2"/>
+        <rect width="64" height="19" x="18.5" y="12.5" fill="url(#j)" stroke="url(#i)" rx="2"/>
+        <rect width="8" height="2" x="22" y="55" fill="#FFF" rx="1"/>
+        <rect width="8" height="2" x="22" y="79" fill="#FFF" rx="1" transform="rotate(45 26 80)"/>
+        <rect width="8" height="2" x="46" y="55" fill="#FFF" rx="1"/>
+        <rect width="8" height="2" x="71" y="66" fill="#FFF" rx="1"/>
+        <rect width="8" height="2" x="71" y="70" fill="#FFF" rx="1"/>
+        <rect width="8" height="2" x="46" y="79" fill="#FFF" rx="1"/>
+        <rect width="2" height="2" x="49" y="76" fill="#FFF" rx="1"/>
+        <rect width="2" height="2" x="49" y="82" fill="#FFF" rx="1"/>
+        <rect width="8" height="2" x="22" y="55" fill="#FFF" rx="1" transform="rotate(90 26 56)"/>
+        <rect width="8" height="2" x="22" y="79" fill="#FFF" rx="1" transform="rotate(135 26 80)"/>
+        <rect width="81" height="91" x="10.5" y="4.5" stroke="url(#k)" rx="5"/>
+    </g>
+</svg>

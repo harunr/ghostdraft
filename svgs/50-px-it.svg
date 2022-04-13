@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+    <defs>
+        <linearGradient id="a" x1="50%" x2="50%" y1="-1.77%" y2="100%">
+            <stop offset="0%" stop-color="#1B98EA"/>
+            <stop offset="100%" stop-color="#0018A8"/>
+        </linearGradient>
+        <linearGradient id="b" x1="11.591%" x2="11.591%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#0E56FE"/>
+            <stop offset="100%" stop-color="#0018A8"/>
+        </linearGradient>
+        <linearGradient id="c" x1="50.002%" x2="50.002%" y1=".089%" y2="100%">
+            <stop offset="0%" stop-color="#1B98EA" stop-opacity=".7"/>
+            <stop offset="100%" stop-color="#1B98EA" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="d" x1="50.002%" x2="50.002%" y1="50%" y2="118.544%">
+            <stop offset="0%" stop-color="#F7FAFD" stop-opacity=".5"/>
+            <stop offset="100%" stop-color="#1B98EA" stop-opacity="0"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path stroke="#052C9F" stroke-linecap="round" stroke-width="2" d="M4 35h42"/>
+        <path stroke="#0843BC" stroke-linecap="round" stroke-width="2" d="M4 28h42"/>
+        <path stroke="#0E5ED2" stroke-linecap="round" stroke-width="2" d="M4 21h42"/>
+        <path stroke="#1474E2" stroke-linecap="round" stroke-width="2" d="M4 14h42"/>
+        <path stroke="url(#a)" stroke-linecap="round" stroke-width="2" d="M14 4v42M21 4v42M28 4v42M35 4v42"/>
+        <rect width="35" height="35" x="7" y="7" fill="url(#b)" rx="5"/>
+        <rect width="34.5" height="34.5" x="7.25" y="7.25" stroke="url(#c)" stroke-width=".5" rx="5"/>
+        <rect width="20" height="20" x="14.5" y="14.5" stroke="url(#d)" rx="3"/>
+    </g>
+</svg>

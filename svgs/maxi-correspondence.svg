@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+    <defs>
+        <linearGradient id="a" x1="11.591%" x2="11.591%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#0E56FE"/>
+            <stop offset="100%" stop-color="#0018A8"/>
+        </linearGradient>
+        <linearGradient id="b" x1="50.002%" x2="50.002%" y1=".089%" y2="100%">
+            <stop offset="0%" stop-color="#1B98EA"/>
+            <stop offset="100%" stop-color="#1B98EA" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="d" x1="50%" x2="50%" y1="0%" y2="90.646%">
+            <stop offset="0%" stop-color="#55BCFF"/>
+            <stop offset="100%" stop-color="#1B98EA"/>
+        </linearGradient>
+        <linearGradient id="c" x1="50%" x2="52.129%" y1="12.889%" y2="75.56%">
+            <stop offset="0%" stop-color="#8AD1FF"/>
+            <stop offset="100%" stop-color="#1B98EA" stop-opacity="0"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path fill="url(#a)" d="M35 5h55a5 5 0 0 1 5 5v43.018a4.44 4.44 0 0 1-7.161 3.507l-5.808-4.507a5 5 0 0 0-3.066-1.05H35a5 5 0 0 1-5-5V10a5 5 0 0 1 5-5z"/>
+        <path stroke="url(#b)" d="M35 5.5a4.5 4.5 0 0 0-4.5 4.5v35.968a4.5 4.5 0 0 0 4.5 4.5h43.965a5.5 5.5 0 0 1 3.372 1.155l5.809 4.507a3.94 3.94 0 0 0 6.354-3.112V10A4.5 4.5 0 0 0 90 5.5H35z"/>
+        <path fill="url(#d)" stroke="url(#c)" d="M11 40.5A4.5 4.5 0 0 0 6.5 45v36.968a4.5 4.5 0 0 0 4.5 4.5h43.965a5.5 5.5 0 0 1 3.372 1.155l5.809 4.507a3.94 3.94 0 0 0 6.354-3.112V45a4.5 4.5 0 0 0-4.5-4.5H11z"/>
+        <rect width="37" height="2" x="20" y="66" fill="#FFF" rx="1"/>
+        <rect width="37" height="2" x="20" y="73" fill="#FFF" rx="1"/>
+        <rect width="19" height="2" x="20" y="52" fill="#FFF" rx="1"/>
+        <rect width="37" height="2" x="20" y="59" fill="#FFF" rx="1"/>
+        <rect width="6" height="6" x="45" y="24" stroke="#FFF" stroke-width="2" rx="3"/>
+        <rect width="6" height="6" x="59" y="24" stroke="#FFF" stroke-width="2" rx="3"/>
+        <rect width="6" height="6" x="74" y="24" stroke="#FFF" stroke-width="2" rx="3"/>
+    </g>
+</svg>

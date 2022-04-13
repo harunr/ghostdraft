@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+    <defs>
+        <linearGradient id="a" x1="50.002%" x2="50.002%" y1="18.057%" y2="123.054%">
+            <stop offset="0%" stop-color="#1B98EA" stop-opacity=".7"/>
+            <stop offset="100%" stop-color="#1B98EA" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="b" x1="66.77%" x2="13.996%" y1="33.619%" y2="85.853%">
+            <stop offset="0%" stop-color="#1B98EA" stop-opacity=".7"/>
+            <stop offset="100%" stop-color="#1B98EA" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="c" x1="33.354%" x2="85.192%" y1="34.445%" y2="82.69%">
+            <stop offset="0%" stop-color="#1B98EA" stop-opacity=".7"/>
+            <stop offset="100%" stop-color="#1B98EA" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="d" x1="11.591%" x2="11.591%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#0E56FE"/>
+            <stop offset="100%" stop-color="#0018A8"/>
+        </linearGradient>
+        <linearGradient id="e" x1="50.002%" x2="50.002%" y1=".089%" y2="100%">
+            <stop offset="0%" stop-color="#1B98EA" stop-opacity=".7"/>
+            <stop offset="100%" stop-color="#1B98EA" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="f" x1="11.591%" x2="11.591%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#0E56FE"/>
+            <stop offset="100%" stop-color="#0018A8"/>
+        </linearGradient>
+        <linearGradient id="g" x1="50.002%" x2="50.002%" y1=".089%" y2="100%">
+            <stop offset="0%" stop-color="#1B98EA" stop-opacity=".7"/>
+            <stop offset="100%" stop-color="#1B98EA" stop-opacity="0"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <ellipse cx="50" cy="50" stroke="url(#a)" rx="26.5" ry="44.5"/>
+        <ellipse cx="50" cy="50" stroke="url(#b)" rx="26.5" ry="44.5" transform="rotate(-60 50 50)"/>
+        <ellipse cx="50" cy="50" stroke="url(#c)" rx="26.5" ry="44.5" transform="rotate(60 50 50)"/>
+        <g transform="translate(25 12)">
+            <circle cx="6" cy="6" r="6" fill="url(#d)"/>
+            <circle cx="6" cy="6" r="5.5" stroke="url(#e)"/>
+        </g>
+        <g transform="translate(25 76)">
+            <circle cx="6" cy="6" r="6" fill="url(#d)"/>
+            <circle cx="6" cy="6" r="5.5" stroke="url(#e)"/>
+        </g>
+        <g transform="translate(80 44)">
+            <circle cx="6" cy="6" r="6" fill="url(#d)"/>
+            <circle cx="6" cy="6" r="5.5" stroke="url(#e)"/>
+        </g>
+        <path fill="url(#f)" d="M65.57 44.245L45.29 32.9C40.716 30.342 35 33.54 35 38.655v22.69c0 5.115 5.716 8.313 10.289 5.755L65.57 55.755a6.544 6.544 0 0 0 0-11.51z"/>
+        <path stroke="url(#g)" d="M65.326 44.681zm0 0L45.045 33.337c-4.245-2.374-9.545.59-9.545 5.318v22.69c0 4.728 5.3 7.692 9.545 5.318L65.326 55.32a6.044 6.044 0 0 0 0-10.638z"/>
+    </g>
+</svg>

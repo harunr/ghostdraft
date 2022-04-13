@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+    <defs>
+        <linearGradient id="a" x1="11.591%" x2="11.591%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#0E56FE"/>
+            <stop offset="100%" stop-color="#0018A8"/>
+        </linearGradient>
+        <linearGradient id="b" x1="50.002%" x2="50.002%" y1="36.677%" y2="100%">
+            <stop offset="0%" stop-color="#1B98EA" stop-opacity=".7"/>
+            <stop offset="100%" stop-color="#1B98EA" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="c" x1="11.591%" x2="11.591%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#0E56FE"/>
+            <stop offset="100%" stop-color="#0018A8"/>
+        </linearGradient>
+        <linearGradient id="d" x1="50.002%" x2="50.002%" y1=".089%" y2="100%">
+            <stop offset="0%" stop-color="#1B98EA" stop-opacity=".7"/>
+            <stop offset="100%" stop-color="#1B98EA" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="e" x1="23.79%" x2="74.288%" y1="-3.568%" y2="100%">
+            <stop offset="0%" stop-color="#1B98EA"/>
+            <stop offset="100%" stop-color="#1B98EA" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="g" x1="50%" x2="50%" y1="0%" y2="90.646%">
+            <stop offset="0%" stop-color="#55BCFF"/>
+            <stop offset="100%" stop-color="#1B98EA"/>
+        </linearGradient>
+        <linearGradient id="f" x1="50%" x2="50.101%" y1="0%" y2="84.437%">
+            <stop offset="0%" stop-color="#8AD1FF"/>
+            <stop offset="100%" stop-color="#1B98EA" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="i" x1="50%" x2="50%" y1="0%" y2="90.646%">
+            <stop offset="0%" stop-color="#55BCFF"/>
+            <stop offset="100%" stop-color="#1B98EA"/>
+        </linearGradient>
+        <linearGradient id="h" x1="50%" x2="52.129%" y1="0%" y2="84.437%">
+            <stop offset="0%" stop-color="#8AD1FF"/>
+            <stop offset="100%" stop-color="#1B98EA" stop-opacity="0"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path fill="url(#a)" d="M13.319 38h73.362a5 5 0 0 1 4.866 6.15l-9.923 42A5 5 0 0 1 76.758 90H23.242a5 5 0 0 1-4.866-3.85l-9.923-42A5 5 0 0 1 13.319 38z"/>
+        <path stroke="url(#b)" d="M13.319 38.5a4.5 4.5 0 0 0-4.38 5.535l9.924 42a4.5 4.5 0 0 0 4.38 3.465h53.515a4.5 4.5 0 0 0 4.38-3.465l9.922-42a4.5 4.5 0 0 0-4.379-5.535H13.319z"/>
+        <rect width="90" height="14" x="5" y="37" fill="url(#c)" rx="5"/>
+        <rect width="89" height="13" x="5.5" y="37.5" stroke="url(#d)" rx="5"/>
+        <path stroke="url(#e)" stroke-linecap="round" stroke-linejoin="bevel" stroke-width="4" d="M12 44l23-33M88 44L65 11"/>
+        <rect width="4" height="22" x="30.5" y="59.5" fill="url(#g)" stroke="url(#f)" rx="2"/>
+        <rect width="4" height="22" x="64.5" y="59.5" fill="url(#g)" stroke="url(#f)" rx="2"/>
+        <rect width="4" height="22" x="47.5" y="59.5" fill="url(#g)" stroke="url(#f)" rx="2"/>
+        <circle cx="88" cy="44" r="2.5" fill="url(#i)" stroke="url(#h)"/>
+        <circle cx="12" cy="44" r="2.5" fill="url(#i)" stroke="url(#h)" transform="matrix(-1 0 0 1 24 0)"/>
+    </g>
+</svg>
